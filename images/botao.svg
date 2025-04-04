@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<svg width="130" height="34" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <g class="layer">
+  <title>Layer 1</title>
+  <rect fill="#1f883d" height="32" id="svg_1" rx="6" ry="6" stroke="rgba(31,35,40,0.15)" transform="matrix(1 0 0 1 0 0)" width="128" x="1" y="1"/>
+  <path d="m10.5,17a6.5,6.5 0 1 1 13,0a6.5,6.5 0 0 1 -13,0zm6.5,-8a8,8 0 1 0 0,16a8,8 0 0 0 0,-16zm-1.62,5.23a0.25,0.25 0 0 0 -0.38,0.21l0,5.12a0.25,0.25 0 0 0 0.38,0.21l4.26,-2.56a0.25,0.25 0 0 0 0,-0.42l-4.26,-2.56z" fill="#88dda0" fill-rule="evenodd" id="svg_2"/>
+  <text fill="#fff" font-family="system-ui" font-size="14" font-weight="500" id="svg_3" style="cursor: text;" text-anchor="middle" x="70" y="23">Iniciar</text>
+ </g>
+</svg>
