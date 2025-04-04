@@ -8,7 +8,7 @@ No último passo, você habilitou a verificação de segredos no repositório e 
 
 1. Abra uma nova aba do navegador e siga os passos na sua segunda aba enquanto lê as instruções nesta aba.
 2. Navegue até a aba **Segurança (Security)** na barra de navegação superior do seu repositório.
-3. Selecione **Verificação de segredos(Secret Scanning)** na barra de navegação à esquerda.
+3. Selecione **Verificação de segredos (Secret Scanning)** na barra de navegação à esquerda.
 
 Esta página contém a lista de alertas de verificação de segredos. Você pode filtrar e classificar esta página com base em critérios como o estado do alerta (aberto ou fechado), validade e tipo de segredo. Você verá três alertas listados aqui.
 
