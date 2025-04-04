@@ -12,15 +12,15 @@ A verificação de segredos está habilitada por padrão para todos os novos rep
 
 1. Abra uma nova aba do navegador e siga os passos na sua segunda aba enquanto lê as instruções nesta aba.
 2. No seu repositório recém-criado, selecione **Configurações** na barra de navegação superior.
-3. Na seção **Segurança** à esquerda, selecione **Segurança de código e análise**.
+3. Na seção **Segurança** à esquerda, selecione **Secret Scanning**.
 4. Role até o final desta página e selecione o botão **Habilitar** ao lado de "Verificação de segredos."
 
 > [!IMPORTANTE]
 > Quando você habilita a verificação de segredos, pode receber uma notificação por e-mail sobre credenciais no seu repositório. Não se preocupe! Os tokens neste repositório de habilidades estão inativos. Não há risco para o seu ambiente.
 
-### :keyboard: Atividade 1.2: Cometer um token
+### :keyboard: Atividade 1.2: Comitar um token
 
-Agora que você habilitou a verificação de segredos neste repositório, vamos cometer um novo token para ver como isso funciona. Você comprometerá uma chave e ID de acesso da AWS no repositório. Não se preocupe, este é um token inativo que não pode ser usado para fazer login na AWS.
+Agora que você habilitou a verificação de segredos neste repositório, vamos comiter um novo token para ver como isso funciona. Você comprometerá uma chave e ID de acesso da AWS no repositório. Não se preocupe, este é um token inativo que não pode ser usado para fazer login na AWS.
 
 1. Você deve continuar a trabalhar nas atividades em uma segunda aba do navegador.
 2. Clique na aba **Código** no seu repositório.
