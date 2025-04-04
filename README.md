@@ -1,39 +1,39 @@
 <header>
 
-# Introduction to secret scanning
+# Introdução à varredura de segredos
 
-_GitHub scans repositories for known types of secrets, such as API keys and authentication tokens, to prevent fraudulent use of secrets that were committed accidentally. In this GitHub Skills course you will learn how to enable secret scanning to identify secrets and prevent them from being committed to your repository._
+_O GitHub verifica repositórios em busca de tipos conhecidos de segredos, como chaves de API e tokens de autenticação, para prevenir o uso fraudulento de segredos que foram comprometidos acidentalmente. Neste curso do GitHub Skills, você aprenderá como habilitar a varredura de segredos para identificar segredos e evitar que sejam comprometidos em seu repositório._
 
 </header>
 
-## Welcome
+## Bem-vindo
 
-Plain-text credentials accidentally stored in repositories on GitHub are a common target for attackers.  In fact, we find well over a million tokens stored on the GitHub platform each year. Secret scanning is a powerful tool which allows teams to identify these plain-text credentials, remove them, and create rules to prevent them from being written to GitHub in the first place.
+Credenciais em texto simples acidentalmente armazenadas em repositórios no GitHub são um alvo comum para atacantes. De fato, encontramos bem mais de um milhão de tokens armazenados na plataforma GitHub a cada ano. A varredura de segredos é uma ferramenta poderosa que permite às equipes identificar essas credenciais em texto simples, removê-las e criar regras para evitar que sejam escritas no GitHub em primeiro lugar.
 
-Secret scanning is available for free for public repositories on all plans. Enterprises that need secret scanning capabilities for private repositories should review [GitHub Advanced Security](https://docs.github.com/en/enterprise-cloud@latest/get-started/learning-about-github/about-github-advanced-security). GitHub Advanced Security allows you to use secret scanning and other security features on private and internal repositories.
+A varredura de segredos está disponível gratuitamente para repositórios públicos em todos os planos. Empresas que necessitam de capacidades de varredura de segredos para repositórios privados devem revisar o [GitHub Advanced Security](https://docs.github.com/en/enterprise-cloud@latest/get-started/learning-about-github/about-github-advanced-security). O GitHub Advanced Security permite usar a varredura de segredos e outros recursos de segurança em repositórios privados e internos.
 
-- **Who is this for**: Developers, DevOps Engineers, security teams.
-- **What you'll learn**: How to identify plain-text credentials in your repository and how to prevent them from being exposed on GitHub in future pushes.
-- **Prerequisites**: Basics of git and GitHub functionality. We recommend you complete [Introduction to GitHub](https://github.com/skills/introduction-to-github).
-- **How long**: This course takes less than 15 minutes to complete.
+- **Para quem é este curso**: Desenvolvedores, Engenheiros DevOps, equipes de segurança.
+- **O que você aprenderá**: Como identificar credenciais em texto simples no seu repositório e como evitar que sejam expostas no GitHub em futuros commits.
+- **Pré-requisitos**: Noções básicas de git e funcionalidades do GitHub. Recomendamos que você complete o curso [Introdução ao GitHub](https://github.com/skills/introduction-to-github).
+- **Quanto tempo**: Este curso leva menos de 15 minutos para ser concluído.
 
-In this course, you will:
+Neste curso, você irá:
 
-1. Enable secret scanning
-2. Identify secrets stored in your repository
-3. Enable push protection
-4. Stop secrets from being written to your repository
+1. Habilitar a varredura de segredos
+2. Identificar segredos armazenados em seu repositório
+3. Habilitar a proteção de push
+4. Evitar que segredos sejam escritos em seu repositório
 
-### How to start this course
+### Como iniciar este curso
 
 [![start-course](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=skills&template_name=introduction-to-secret-scanning&owner=%40me&name=skills-introduction-to-secret-scanning&description=GitHub+Skills:+Introduction+to+Secret+Scanning&visibility=public)
 
-1. Right-click **Start course** and open the link in a new tab.
-2. In the new tab, most of the prompts will automatically fill in for you.
-   - For owner, choose your personal account or an organization to host the repository.
-   - You will need to make the repository public, as private repositories do not have access to secret scanning without a [GitHub Advanced Security](https://docs.github.com/en/enterprise-cloud@latest/get-started/learning-about-github/about-github-advanced-security) license.
-   - Scroll down and click the **Create repository** button at the bottom of the form.
-3. After your new repository is created, wait about 20 seconds, then refresh the page. Follow the step-by-step instructions in the new repository's README.
+1. Clique com o botão direito em **Iniciar curso** e abra o link em uma nova aba.
+2. Na nova aba, a maioria dos prompts será preenchida automaticamente para você.
+   - Para o proprietário, escolha sua conta pessoal ou uma organização para hospedar o repositório.
+   - Você precisará tornar o repositório público, pois repositórios privados não têm acesso à varredura de segredos sem uma licença do [GitHub Advanced Security](https://docs.github.com/en/enterprise-cloud@latest/get-started/learning-about-github/about-github-advanced-security).
+   - Role para baixo e clique no botão **Criar repositório** na parte inferior do formulário.
+3. Após a criação do seu novo repositório, espere cerca de 20 segundos e atualize a página. Siga as instruções passo a passo no README do novo repositório.
 
 <footer>
 
