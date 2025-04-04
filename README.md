@@ -26,7 +26,7 @@ Neste curso, você irá:
 
 ### Como iniciar este curso
 
-[![start-course]([https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg](https://raw.githubusercontent.com/dev-pods/introduction-to-secret-scanning/873eb13decfe79fd486ff84bd97de0dab4912d9a/images/botao.svg))](https://github.com/new?template_owner=dev-pods&template_name=introduction-to-secret-scanning&owner=%40me&name=introduction-to-secret-scanning&description=GitHub+Habilidades:+Introdução+para+Secret+Scanning&visibility=public)
+[![start-course](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg(https://raw.githubusercontent.com/dev-pods/introduction-to-secret-scanning/873eb13decfe79fd486ff84bd97de0dab4912d9a/images/botao.svg))](https://github.com/new?template_owner=dev-pods&template_name=introduction-to-secret-scanning&owner=%40me&name=introduction-to-secret-scanning&description=GitHub+Habilidades:+Introdução+para+Secret+Scanning&visibility=public)
 
 1. Clique com o botão direito em **Iniciar curso** e abra o link em uma nova aba.
 2. Na nova aba, a maioria dos prompts será preenchida automaticamente para você.
