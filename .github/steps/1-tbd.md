@@ -1,35 +1,35 @@
-## Step 1: Enable Secret Scanning
+## Passo 1: Habilitar Verificação de Segredos
 
-_Welcome to "Introduction to Secret Scanning"! :wave:_
+_Bem-vindo ao "Introdução à Verificação de Segredos"! :wave:_
 
-In this step, you will enable secret scanning on this repository. Once secret scanning is enabled, you will add a new credential to see how secret scanning identifies the credential.
+Neste passo, você habilitará a verificação de segredos neste repositório. Uma vez que a verificação de segredos estiver habilitada, você adicionará uma nova credencial para ver como a verificação de segredos identifica a credencial.
 
-**What is a secret**: In the context of secret scanning, a secret (or credential) is a plain-text string, or a pair of strings, that authorizes a user to access a service. Examples could be AWS secret access keys/ID's, Google API keys, or Stripe API tokens. GitHub Docs hosts a list of [all supported patterns](https://docs.github.com/en/code-security/secret-scanning/secret-scanning-patterns#supported-secrets).
+**O que é um segredo**: No contexto da verificação de segredos, um segredo (ou credencial) é uma string em texto simples, ou um par de strings, que autoriza um usuário a acessar um serviço. Exemplos podem ser chaves/IDs de acesso secreto da AWS, chaves de API do Google ou tokens de API do Stripe. A documentação do GitHub hospeda uma lista de [todos os padrões suportados](https://docs.github.com/en/code-security/secret-scanning/secret-scanning-patterns#supported-secrets).
 
-### :keyboard: Activity 1.1: Enable secret scanning
+### :keyboard: Atividade 1.1: Habilitar verificação de segredos
 
-Secret scanning is enabled by default for all new public repositories. If you're working in a public repository, you can go straight to "Activity 1.2: Commit a token." For private or internal repositories, secret scanning is available with [GitHub Advanced Security](https://docs.github.com/en/enterprise-cloud@latest/get-started/learning-about-github/about-github-advanced-security).
+A verificação de segredos está habilitada por padrão para todos os novos repositórios públicos. Se você estiver trabalhando em um repositório público, pode ir direto para "Atividade 1.2: Cometer um token." Para repositórios privados ou internos, a verificação de segredos está disponível com o [GitHub Advanced Security](https://docs.github.com/en/enterprise-cloud@latest/get-started/learning-about-github/about-github-advanced-security).
 
-1. Open a new browser tab, and work on the steps in your second tab while you read the instructions in this tab.
-2. In your newly created repository, select **Settings** from the top navigation bar.
-3. Under the **Security** section on the left side, select **Code security and analysis**.
-4. Scroll to the bottom of this page and select the **Enable** button next to "Secret scanning."
+1. Abra uma nova aba do navegador e siga os passos na sua segunda aba enquanto lê as instruções nesta aba.
+2. No seu repositório recém-criado, selecione **Configurações** na barra de navegação superior.
+3. Na seção **Segurança** à esquerda, selecione **Segurança de código e análise**.
+4. Role até o final desta página e selecione o botão **Habilitar** ao lado de "Verificação de segredos."
 
-> [!IMPORTANT]
-> When you enable secret scanning, you may receive an email notification about credentials in your repository. Don't worry! The tokens in this Skills repository are inactive. There is no risk to your environment.
+> [!IMPORTANTE]
+> Quando você habilita a verificação de segredos, pode receber uma notificação por e-mail sobre credenciais no seu repositório. Não se preocupe! Os tokens neste repositório de habilidades estão inativos. Não há risco para o seu ambiente.
 
-### :keyboard: Activity 1.2: Commit a token
+### :keyboard: Atividade 1.2: Cometer um token
 
-Now that you have secret scanning enabled in this repository, let's commit a new token to see how it works. You'll commit an AWS key and access ID to the repository. Don't worry, this is an inactive token that can't be used to log in to AWS.
+Agora que você habilitou a verificação de segredos neste repositório, vamos cometer um novo token para ver como isso funciona. Você comprometerá uma chave e ID de acesso da AWS no repositório. Não se preocupe, este é um token inativo que não pode ser usado para fazer login na AWS.
 
-1. You should continue to work on activities in a second browser tab.
-2. Click the **Code** tab in your repository.
-3. Display the `credentials.yml` file.
-4. Click the Edit button to the right.
+1. Você deve continuar a trabalhar nas atividades em uma segunda aba do navegador.
+2. Clique na aba **Código** no seu repositório.
+3. Exiba o arquivo `credentials.yml`.
+4. Clique no botão Editar à direita.
 
-    ![A screenshot of credentials.yml on the GitHub web interface with the edit button outlined](/images/edit-credentials-file.png)
+    ![Uma captura de tela do credentials.yml na interface web do GitHub com o botão de edição destacado](/images/edit-credentials-file.png)
 
-5. Copy the following text and paste it at the bottom of the `credentials.yml` file.
+5. Copie o texto a seguir e cole-o no final do arquivo `credentials.yml`.
 
     ```yaml
     default:
@@ -39,5 +39,5 @@ Now that you have secret scanning enabled in this repository, let's commit a new
       region: us-east-2
     ```
 
-6. Click **Commit changes...** at the top right. The "Commit changes" window is displayed. Leave the defaults configured, and click **Commit changes** to commit directly to the `main` branch.
-7. Wait about 20 seconds, then refresh this page (the one you're following instructions from). A GitHub Actions workflow in the repository will run and automatically replace this contents of this `README` file with instructions for the next step.
+6. Clique em **Commit changes...** no canto superior direito. A janela "Commit changes" será exibida. Deixe as configurações padrão e clique em **Commit changes** para cometer diretamente na branch `main`.
+7. Espere cerca de 20 segundos e então atualize esta página (a página onde você está seguindo as instruções). Um workflow do GitHub Actions no repositório será executado e substituirá automaticamente o conteúdo deste arquivo `README` com instruções para o próximo passo.
