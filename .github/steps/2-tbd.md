@@ -43,7 +43,7 @@ Abra o alerta **ID da Chave de Acesso da Amazon AWS** e explore as informações
 Quando a verificação de segredos encontra um segredo no seu repositório, a primeira coisa que você deve fazer é desativar esse segredo no provedor. Isso impede qualquer uso futuro dessa credencial. Depois que o segredo for desativado, o próximo passo é fechar o alerta marcando-o como "Revogado". Nesta atividade, você abrirá um alerta que foi validado como "Inativo" pela verificação de segredos e, em seguida, marcará esse alerta como "Revogado".
 
 1. Na sua outra aba, volte para a lista completa de alertas de verificação de segredos, usando o link **Alertas de verificação de segredos** no canto superior esquerdo do alerta ou usando a aba **Segurança** conforme descrito acima.
-2. Na lista de alertas de verificação de segredos, abra o alerta intitulado **Token de Acesso Pessoal do GitHub**.
+2. Na lista de alertas de verificação de segredos, abra o alerta intitulado **Token de Acesso Pessoal do GitHub (GitHub Personal Access Token)**.
 3. No topo deste alerta, se o alerta estiver marcado como "Segredo inativo em github.com", então a verificação de segredos já validou essa credencial e descobriu que está desativada. Se o alerta ainda estiver marcado como "Segredo possivelmente ativo", clique no botão **Verificar segredo** para validar agora.
 5. Agora que sabemos que este segredo não está mais ativo, estamos prontos para fechar o alerta. Selecione o dropdown **Fechar como** e escolha **Revogado**.
 7. Insira um comentário na caixa de texto.
