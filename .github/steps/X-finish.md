@@ -1,30 +1,30 @@
-## Finish 🏆
+## Finalizar 🏆
 
-_Congratulations friend, you've completed this course!_ 
+_Parabéns amigo, você completou este curso!_ 
 
-Here's a recap of all the tasks you've accomplished in your repository:
+Aqui está um resumo de todas as tarefas que você realizou em seu repositório:
 
-- Enabled secret scanning if your repository has private or internal visibility
-- Committed a secret to the repository
-- Reviewed secrets that have been identified by secret scanning
-- Closed a secret scanning alert
-- Enabled secret scanning push protection to prevent secrets from being written to the repository (required only for private or internal repositories)
-- Attempted to commit a secret, but had that commit stopped by push protection
-- Bypassed push protection
+- Habilitou a verificação de segredos se o seu repositório tiver visibilidade privada ou interna
+- Cometeu um segredo no repositório
+- Revisou segredos que foram identificados pela verificação de segredos
+- Fechou um alerta de verificação de segredos
+- Habilitou a proteção de push de verificação de segredos para impedir que segredos sejam escritos no repositório (necessário apenas para repositórios privados ou internos)
+- Tentou cometer um segredo, mas teve esse commit impedido pela proteção de push
+- Ignorou a proteção de push
 
-It's important to note that secret scanning capabilities are available for free for all public repositories. Customers who want to enable secret scanning on private repos should find out more about [GitHub Advanced Security](https://docs.github.com/en/enterprise-cloud@latest/get-started/learning-about-github/about-github-advanced-security) or [Set up a trial of GitHub Advanced Security](https://docs.github.com/en/enterprise-cloud@latest/billing/managing-billing-for-github-advanced-security/setting-up-a-trial-of-github-advanced-security). 
+É importante notar que as capacidades de verificação de segredos estão disponíveis gratuitamente para todos os repositórios públicos. Clientes que desejam habilitar a verificação de segredos em repositórios privados devem saber mais sobre [GitHub Advanced Security](https://docs.github.com/en/enterprise-cloud@latest/get-started/learning-about-github/about-github-advanced-security) ou [Configurar um teste do GitHub Advanced Security](https://docs.github.com/en/enterprise-cloud@latest/billing/managing-billing-for-github-advanced-security/setting-up-a-trial-of-github-advanced-security). 
 
-In addition to the features you worked with here, GitHub Advanced Security also provides the following features:
+Além dos recursos com os quais você trabalhou aqui, o GitHub Advanced Security também fornece os seguintes recursos:
 
--  Custom secret scanning patterns
--  Non-partner and generic patterns including passwords, RSA and SSH keys, and database connection strings
--  Code scanning with CodeQL
--  Security Overview
--  Supply chain security capabilities
+- Padrões de verificação de segredos personalizados
+- Padrões não parceiros e genéricos, incluindo senhas, chaves RSA e SSH e strings de conexão de banco de dados
+- Verificação de código com CodeQL
+- Visão geral de segurança
+- Capacidades de segurança da cadeia de suprimentos
 
-### What's next?
+### O que vem a seguir?
 
-- [We'd love to hear what you thought of this course](TBD-feedback-link).
-- [Take another Skills Course](https://github.com/skills).
-- [Read the GitHub Getting Started docs](https://docs.github.com/en/get-started).
-- To find projects to contribute to, check out [GitHub Explore](https://github.com/explore).
+- [Adoraríamos ouvir o que você achou deste curso](TBD-feedback-link).
+- [Faça outro Curso de Habilidades](https://github.com/skills).
+- [Leia a documentação de Introdução ao GitHub](https://docs.github.com/en/get-started).
+- Para encontrar projetos para contribuir, confira [GitHub Explore](https://github.com/explore).
