@@ -2,7 +2,7 @@
 
 # Introdução à varredura de segredos
 
-_O GitHub verifica repositórios em busca de tipos conhecidos de segredos, como chaves de API e tokens de autenticação, para prevenir o uso fraudulento de segredos que foram comprometidos acidentalmente. Neste curso do GitHub Skills, você aprenderá como habilitar a varredura de segredos para identificar segredos e evitar que sejam comprometidos em seu repositório._
+_O GitHub verifica repositórios em busca de tipos conhecidos de segredos, como chaves de API e tokens de autenticação, para prevenir o uso fraudulento de segredos que foram comprometidos acidentalmente. Neste curso do GitHub, você aprenderá como habilitar a varredura de segredos para identificar segredos e evitar que sejam comprometidos em seu repositório._
 
 </header>
 
@@ -26,7 +26,7 @@ Neste curso, você irá:
 
 ### Como iniciar este curso
 
-[![start-course](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=skills&template_name=introduction-to-secret-scanning&owner=%40me&name=skills-introduction-to-secret-scanning&description=GitHub+Skills:+Introduction+to+Secret+Scanning&visibility=public)
+[![start-course](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=dev-pods&template_name=introduction-to-secret-scanning&owner=%40me&name=introduction-to-secret-scanning&description=GitHub+Habilidades:+Introdução+para+Secret+Scanning&visibility=public)
 
 1. Clique com o botão direito em **Iniciar curso** e abra o link em uma nova aba.
 2. Na nova aba, a maioria dos prompts será preenchida automaticamente para você.
@@ -39,8 +39,8 @@ Neste curso, você irá:
 
 ---
 
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/introduction-to-secret-scanning) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
+Obter ajuda: [Poste em nosso fórum de discussão](https://github.com/skills/.github/discussions) &bull; [Revise a página de status do GitHub](https://www.githubstatus.com/)
 
-&copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+&copy; 2025 GitHub &bull; [Código de Conduta](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
 
 </footer>
